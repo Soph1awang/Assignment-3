@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hugh Miller</title>
+
+    <!-- Nunito Sans Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="media/images/HM_logo.png" alt="Hugh Miller Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="about.html" class="nav-link">ABOUT</a>
+            <a href="works.html" class="nav-link">WORKS</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Intro VIDEO -->
+        <section class="intro-video">
+            <video autoplay muted loop playsinline>
+                <source src="media/videos/Homepage_video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- DESIGNER INFO -->
+        <section class="about">
+            <p class="title">THE DESIGNER</p>
+            <p class="description">
+                Hugh Miller is a graphic designer, art director 
+                and Partner at Pentagram’s London office.
+            </p>
+        </section>
+
+        <!-- Strip Text Video -->
+        <section class="moving-text">
+            <video id="stripVideo" autoplay muted loop playsinline>
+                <source src="media/videos/Sliding_text.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- Works Grid -->
+        <section class="gallery">
+            <div class="grid">
+
+                <a href="works.html?work=ISTD%20Typographic%20Awards" class="gallery-item-link">
+                    <div class="gallery-item">
+                        <img src="media/images/Istd1.png" alt="ISTD Book">
+                        <div class="gallery-overlay">
+                            <p>ISTD Typographic Awards</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="works.html?work=At%20the%20End%20of%20the%20World%2C%20Plant%20a%20Tree" class="gallery-item-link">
+                    <div class="gallery-item">
+                        <img src="media/images/Tree1.png" alt="At the End of the World, Plant a Tree">
+                        <div class="gallery-overlay">
+                            <p>[SO/LO], At the End of the World, Plant a Tree</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="works.html?work=LogoArchive%3A%20Akogare%20%E6%86%A7%E3%82%8C%20Issue" class="gallery-item-link">
+                    <div class="gallery-item">
+                        <img src="media/images/Issue1.png" alt="LogoArchive: Akogare 憧れ issue">
+                        <div class="gallery-overlay">
+                            <p>LogoArchive: Akogare 憧れ issue</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="works.html?work=Twenty-six%20Characters" class="gallery-item-link">
+                    <div class="gallery-item">
+                        <img src="media/images/Character1.png" alt="Twenty-six characters">
+                        <div class="gallery-overlay">
+                            <p>Twenty-six characters</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <img src="media/images/Footer_image.png" alt="Hugh Miller">
+
+        <div class="footer-text">
+            <div class="footer-left">
+                <a href="https://www.instagram.com/neue_miller/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.linkedin.com/in/hugh-miller-ba19104/" target="_blank">LINKEDIN</a>
+            </div>
+
+            <div class="footer-center">
+                © 2026 HUGH MILLER
+            </div>
+
+            <div class="footer-right">
+                WEBSITE BY SOPHIA WANG
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Video Speed -->
+        <script>
+            const stripVideo = document.getElementById("stripVideo");
+
+            stripVideo.addEventListener("loadeddata", () => {
+                stripVideo.playbackRate = 0.8;
+            });
+        </script>
+        
+</body>
+</html>
