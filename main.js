@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+    
 // WORKS INFORMATION
 const works = [
     {
@@ -416,3 +418,4 @@ sortButtons.forEach(button => {
 // START PAGE
 renderWorks("date");
 openWorkFromUrl();
+});
