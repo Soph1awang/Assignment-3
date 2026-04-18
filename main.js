@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+//The code below is written by CHATGPT but sorted and edited by me
+    /* I unfortunately could not figure out the Java that is needed to achieve the effect 
+       I want for my works page. It was too much and too complicated to learn within our 
+       time period so I used CHATGPT to help me write the code. */
     
 // WORKS INFORMATION
 const works = [
